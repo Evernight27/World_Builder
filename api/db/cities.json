@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Craledo",
+    "description": "a seaside haven",
+    "nation": "Alefraydo"
+  },
+  {
+    "name": "Luegate",
+    "description": "a city with a funny gate",
+    "nation": "Alefraydo"
+  },
+  {
+    "name": "Olnfield",
+    "description": "a city surrounded by fields",
+    "nation": "Alefraydo"
+  },
+  {
+    "name": "Arnestia",
+    "description": "surrounded by fields and lakes",
+    "nation": "Santharla"
+  },
+  {
+    "name": "Ephagestia",
+    "description": "known for its citizens reliance on technology",
+    "nation": "Santharla"
+  },
+  {
+    "name": "Ampheritis",
+    "description": "a conglomeration of tribes from the steppes",
+    "nation": "Flandestera"
+  },
+  {
+    "name": "Stelgardios",
+    "description": "surrounded by lavarock and waterfalls",
+    "nation": "Flandestera"
+  }
+]

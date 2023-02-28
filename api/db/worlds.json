@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Phontest",
+    "description": "A world containing ancient forgotten technology and modern magical marvels",
+    "creatures": [
+      "shcreeper",
+      "kayanid"
+    ],
+    "events": [
+      "The Fracturing",
+      "The Reset"
+    ],
+    "nations": [
+      "Alefraydo",
+      "Santharla"
+    ]
+  },
+  {
+    "name": "Crestophel",
+    "description": "a mostly dead world with scarse resoources",
+    "creatures": [
+      "alifara"
+    ],
+    "events": [
+      "The Great Migration"
+    ],
+    "nations": [
+      "Flandestera"
+    ]
+  }
+]

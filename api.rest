@@ -1,0 +1,179 @@
+# To use this file, insall the REST Client extension
+# vscode:extension/humao.rest-client
+
+# To switch environments:
+#  - Ctrl+Alt+E(Cmd+Alt+E for macOS)
+#  - Or `Rest Client: Switch Environment` from command palette
+
+# You'll need to switch to either `local` or `vercel` to get started.
+
+@baseUrl = {{host}}/api
+@characters = {{baseUrl}}/characters
+@cities = {{baseUrl}}/cities
+@creatures = {{baseUrl}}/creatures
+@events = {{baseUrl}}/events
+@nations = {{baseUrl}}/nations
+@worlds = {{baseUrl}}/worlds
+
+GET {{baseUrl}}
+###
+
+POST {{characters}}
+Content-Type: application/json
+
+{
+  "name": "Andler Sapple",
+  "description": "a mature person",
+  "nation": "Flandestera"
+}
+###
+GET {{characters}}/Ruhnur Dhokhu
+###
+GET {{characters}}
+###
+PATCH {{characters}}/Ruhnur Dhokhu
+Content-Type: application/json
+
+{
+  "name": "changed name", 
+  "description": "changed description", 
+  "nation": "Flandestera" 
+}
+###
+DELETE {{characters}}/Andler Sapple
+###
+POST {{cities}}
+Content-Type: application/json
+
+{
+  "name": "Searticle",
+  "description": "a blue city",
+  "nation": "Flandestera"
+}
+###
+GET {{cities}}/Craledo
+###
+GET {{cities}}
+###
+PATCH {{cities}}/Craledo
+Content-Type: application/json
+
+{
+  "name": "changed name", 
+  "description": "changed description", 
+  "nation": "Flandestera"
+}
+###
+DELETE {{cities}}/Andler Sapple
+###
+POST {{creatures}}
+Content-Type: application/json
+
+{
+  "name": "flumble",
+  "description": "a dangerous predator",
+  "hostile": false,
+  "world": "Crestophel"
+}
+###
+GET {{creatures}}/kayanid
+###
+GET {{creatures}}
+###
+PATCH {{creatures}}/kayanid
+Content-Type: application/json
+
+{
+  "name": "changed name", 
+  "description": "changed description", 
+  "world": "Crestophel"
+}
+###
+DELETE {{creatures}}/Andler Sapple
+###
+POST {{events}}
+Content-Type: application/json
+
+{
+  "name": "the golden era",
+  "description": "things went really well",
+  "world": "Crestophel"
+}
+###
+GET {{events}}/The Fracturing
+###
+GET {{events}}
+###
+PATCH {{events}}/The Fracturing
+Content-Type: application/json
+
+{
+  "name": "changed name", 
+  "description": "changed description", 
+  "world": "Crestophel"
+}
+###
+DELETE {{events}}/Andler Sapple
+###
+POST {{nations}}
+Content-Type: application/json
+
+{
+  "name": "Elbangolt",
+  "description": "built in the ruins of the Shattered Hills",
+  "world": "Crestophel",
+  "cities": [
+    "Ampheritis"
+  ]
+}
+###
+GET {{nations}}/Alefraydo
+###
+GET {{nations}}
+###
+PATCH {{nations}}/Alefraydo
+Content-Type: application/json
+
+{
+  "name": "changed name", 
+  "description": "changed description", 
+  "world": "Crestophel",
+  "cities": ["Ampheritis"]
+}
+###
+DELETE {{nations}}/Andler Sapple
+###
+POST {{worlds}}
+Content-Type: application/json
+
+{
+  "name": "Klepfolda",
+  "description": "a small planet mostly covered in oceans",
+  "creatures": [
+    "shcreeper"
+  ],
+  "events": [
+    "The Reset"
+  ],
+  "nations": [
+    "Santharla"
+  ]
+}
+###
+GET {{worlds}}/Phontest
+###
+GET {{worlds}}
+###
+PATCH {{worlds}}/Phontest
+Content-Type: application/json
+
+{
+  "name": "changed name", 
+  "description": "changed description", 
+  "creatures": ["shcreeper"],
+  "events": ["The Reset"], 
+  "nations": ["Santharla"]
+}
+###
+DELETE {{worlds}}/Andler Sapple
+###

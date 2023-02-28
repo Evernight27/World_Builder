@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Alefraydo",
+    "description": "basically Italy",
+    "world": "Phontest",
+    "cities": [
+      "Craledo",
+      "Luegate",
+      "Olnfield"
+    ],
+    "characters": [
+      "Sara Vrorkoku",
+      "Bravark Blooddane"
+    ]
+  },
+  {
+    "name": "Santharla",
+    "description": "a desert nation",
+    "world": "Phontest",
+    "cities": [
+      "Arnestia",
+      "Ephagestia"
+    ],
+    "characters": [
+      "Sihmer Podem",
+      "Cia Lun"
+    ]
+  },
+  {
+    "name": "Flandestera",
+    "description": "a mysterious nation with closed borders",
+    "world": "Crestophel",
+    "cities": [
+      "Ampheritis",
+      "Stelgardios"
+    ],
+    "characters": [
+      "Vathu Zekrim",
+      "Brem Crowflayer"
+    ]
+  }
+]

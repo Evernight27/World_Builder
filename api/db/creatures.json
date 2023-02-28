@@ -1,0 +1,20 @@
+[
+  {
+    "name": "shcreeper",
+    "description": "replaces your shadow and creeps on you",
+    "hostile": true,
+    "world": "Phontest"
+  },
+  {
+    "name": "kayanid",
+    "description": "like a capybara, but a kattydid",
+    "hostile": false,
+    "world": "Phontest"
+  },
+  {
+    "name": "alifara",
+    "description": "a horse like creature with hooked claws useful for climbing trees",
+    "hostile": false,
+    "world": "Crestophel"
+  }
+]

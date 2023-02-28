@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Ruhnur Dhokhu",
+    "description": "a young man",
+    "nation": "Alefraydo"
+  },
+  {
+    "name": "Sihmer Podem",
+    "description": "a younger man",
+    "nation": "Alefraydo"
+  },
+  {
+    "name": "Bravark Blooddane",
+    "description": "the youngest man",
+    "nation": "Alefraydo"
+  },
+  {
+    "name": "Brem Crowflayer",
+    "description": "the youngerest man",
+    "nation": "Santharla"
+  },
+  {
+    "name": "Esheh Cemal",
+    "description": "a young woman",
+    "nation": "Santharla"
+  },
+  {
+    "name": "Vathu Zekrim",
+    "description": "a younger woman",
+    "nation": "Flandestera"
+  },
+  {
+    "name": "Sara Vrorkoku",
+    "description": "the youngest woman",
+    "nation": "Flandestera"
+  },
+  {
+    "name": "Cia Lun",
+    "description": "the youngerest woman",
+    "nation": "Flandestera"
+  }
+]

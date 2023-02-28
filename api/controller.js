@@ -4,7 +4,7 @@ import Creature from './models/creatures.js'
 import Event from './models/events.js'
 import Nation from './models/nations.js'
 import World from './models/worlds.js'
-
+ 
 export const postCharacter = async (request, response) => {
   const body = request.body
   const newCharacter = await Character.create(body)
